@@ -1,0 +1,23 @@
+.text-content{
+    text-align : center;
+    font-family: "Ubuntu";
+  /*     font-weight: bold; */
+    color :#ff4c68;
+    font-size : 3rem;
+  }
+  
+  .bg-red{
+    background-color: red;
+  }
+  .flex {
+    display : flex;
+    align-items: center;
+    flex-direction : column;
+    margin : 10px 0;
+  }
+  .mw-20{
+    max-width : 20rem;
+  }
+  
+  
+  

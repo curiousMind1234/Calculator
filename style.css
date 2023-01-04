@@ -1,0 +1,101 @@
+
+body{
+ 
+  padding : 0;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ecf0f3;;
+}
+.text-content{
+    text-align : center;
+    font-family: "Ubuntu";
+    color : #FF7B54;
+    font-size : 3rem;
+}
+
+.container{
+  background-color: whitesmoke;
+  width : 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 13px 13px 20px #cbced1,
+      -13px -13px 20px #ffffff;
+}
+.input-val #text-input{
+ margin-bottom: .5em;
+  width : 245px;
+  margin : 0;
+  padding :12px 41px;
+  font-size : 20px;
+  text-align: right;
+  padding-right: .5em;
+  background: #ecf0f3;
+  border-radius: 6px;
+  border : none;
+  box-shadow: inset 8px 8px 8px #cbced1,
+      inset -8px -8px 8px #ffffff;
+}
+.row {
+  margin : 8px 0;
+}
+.row button{
+  border : none;
+  border-radius : 10px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 8px #00000020,
+            -5px -5px 8px #ffff;
+}
+.button{
+  width : 66px;
+  margin : 0px 3px;
+  padding : 10px;
+}
+.button:active{
+  transform: translateY(5px);
+}
+.row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+        inset -5px -5px 8px #fff;
+    background: #fff;
+}
+
+#equal {
+   padding : 10px ;
+   background-color : #FF7B54;
+   color: #fff;
+}
+#equal:hover {
+    box-shadow: inset 5px 5px 8px #e68600,
+        inset -5px -5px 8px #e6d200;
+}
+#all-clear{
+   background: #33cc33;
+        color: #fff;
+}
+#ac:hover {
+    box-shadow: inset 5px 5px 8px #2eb82e,
+        inset -5px -5px 8px #33cc33;
+}
+
+#clear {
+    background: #ff3399;
+    color: #fff;
+}
+
+#clear:hover {
+    box-shadow: inset 5px 5px 8px #e60073,
+        inset -5px -5px 8px #ff3399;
+}
+
+#myDIV{
+  display: none;
+}
+
+
+
+
+  
+  
